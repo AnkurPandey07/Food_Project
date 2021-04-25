@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH9vqN9awJFWV8qc8IpTYDAxaKrRfG2-gZYA&usqp=CAU" sizes="16x16" type="image/jpg">
+    <title>Best Online Food Delivery Services In India | MyonlineMeals.com</title>
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+   <style>
+       *{
+margin: 0px;
+padding: 0px;
+ }
+
+html{
+    scroll-behavior: smooth;
+}
+
+ #navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+#logo img{
+    margin: 21px 28px;
+    height: 68px;
+} 
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+   background-color: black;
+   top: 0px;
+   left: 0px;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.4;
+}
+#navbar ul li{
+  
+   list-style: none;
+   font-size: 1.3rem;
+}
+#navbar li a{
+    color: white;
+   display: block;
+padding: 3px 22px;  
+border-radius: 20px;
+text-decoration: none;         
+}
+#navbar li a:hover{
+    color:black;
+    background-color: blanchedalmond;
+}
+
+#home{
+   display: flex;
+   flex-direction: column;
+   padding: 3px 200px;
+   height: 578px;
+   justify-content: center;
+   align-items: center;
+}
+
+#home::before{
+content: "";
+   background: url('3.jpg') no-repeat center center/cover;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 68%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.6;
+}
+#home h1{
+   color: white;
+   text-align: center;
+}
+#home p{
+   color: white;
+   text-align: center;
+   font: 1.5rem;
+}
+.primary{
+font-size: 3.8rem;
+padding: 12px;
+
+}
+.btn{
+padding: 6px 20px;
+border: 2px solid white;
+background-color: brown;
+margin: 17px;
+font-size: 1.5rem;
+border-radius: 11px;
+cursor: pointer;
+}
+/* .services-container{
+height: 100px;
+width: 100px;
+} */
+.box{
+text-align: center;
+justify-content: center;
+padding: 34px;
+margin: 3px 6px;
+border-radius: 23px;
+background-color: rgb(156, 197, 199);
+}
+.primarycenter{
+text-align: center;
+font-size: 3rem;
+}
+.secondary{
+text-decoration: underline;
+text-align: center;
+font-size: 40px;
+padding: 12px;
+}
+#services{
+margin: 34px;
+display: flex;
+}
+#services .box{
+border: 2px solid brown;
+}
+#services .box img{
+height: 156px;
+}
+#services .box p{
+font-style: italic;
+font-size: 1.4rem;
+}
+#services{}
+
+/* client section */
+
+#client-section{
+position: relative;
+/* height: 344px; */
+}
+#client-section::before{
+content: "";
+position: absolute;
+background: url('5.jpg');
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0.3;
+}
+#clients{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#clients img{
+height: 124px;
+}
+.client-item{
+padding: 34px;
+}
+.h-primarycenter{
+text-align: center;
+font-size: 3rem;
+}
+
+/* Contact Section */
+.h-primarycenter{
+    font-size: 4rem;
+}
+#contact{
+position: relative;
+}
+#contact::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0.4;
+background: url('Contact.jpg') no-repeat center center/cover;
+}
+.center{
+text-align: center;
+}
+footer{
+background-color: black;
+color: white;
+padding: 9px 20px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+
+   </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="MyonlineMeals.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="#services-container">SERVICES</a></li>
+            <li class="item"><a href="#client-section">OUR CLIENTS</a></li>
+            <li class="item"><a href="#contact">CONTACT US</a></li>
+            <li class="item"><a href="#">FEATURES</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="primary">Welcome To MyonlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ut laborum repudiandae cumque? Atque, provident similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+<hr>
+    <section id="services-container">
+        <h1 class="primarycenter">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="2.jpg" alt="">
+                <h2 class="secondary">Food Ordering</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nemo adipisci repudiandae quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit modi, iusto facere minima et beatae quo accusamus praesentium provident? </p>
+            </div>
+            <div class="box">
+                <img src="3.jpg" alt="">
+                <h2 class="secondary">Food Catering</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nemo adipisci repudiandae quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit modi, iusto facere minima et beatae quo accusamus praesentium provident? </p>
+            </div>
+            <div class="box">
+                <img src="4.jpg" alt="">
+                <h2 class="secondary">Bulk Ordering</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nemo adipisci repudiandae quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit modi, iusto facere minima et beatae quo accusamus praesentium provident? </p>
+            </div>
+        </div>
+    </section>
+<hr>    
+    <section id="client-section">
+   <h2 class="h-primarycenter">Our Clients</h2>
+   <div id="clients">
+       <div class="client-item">
+           <img src="logo1.png" alt="Our Client">
+       </div>
+       <div class="client-item">
+           <img src="logo2.jpg" alt="Our Client">
+       </div>
+       <div class="client-item">
+           <img src="logo3.png" alt="Our Client">
+       </div>
+       <div class="client-item">
+           <img src="logo4.jpg" alt="Our Client">
+       </div>
+       <div class="client-item">
+           <img src="logo5.png" alt="Our Client">
+       </div>
+   </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primarycenter">Contact Details</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <br>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter First name">
+                    <input type="text" name="name" id="name" placeholder="Enter Middle name">
+                    <input type="text" name="name" id="name" placeholder="Enter Last name">
+                    <br>
+                    <label for="Email">Your Email: </label>
+                    <input type="email" name="name" id="name" placeholder="Enter Your Email Id">
+                    <br>
+                    <label for="myGender">Sex: </label>
+                    <br>
+                   Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Others <input type="radio" name="myGender">
+                   <br>
+                  DOB: <input type="date" name="DOB">
+                  <br>
+                  Your Age: <input type="number" name="Age">
+                  <br>
+                  <label for="phone">Your Ph No: </label>
+                  <input type="phone" name="name" placeholder="Phone Number">
+                  <br>
+                  <button type="submit">Submit Now</button>
+                  <br>
+                  <button type="reset">Reset Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyonlineMeal.com All Rights Reservred!
+        </div>
+    </footer>
+</body>
+</html>
